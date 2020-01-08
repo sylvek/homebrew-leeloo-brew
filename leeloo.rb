@@ -8,6 +8,7 @@ class Leeloo < Formula
   depends_on "gpgme"
   depends_on "ruby"
   depends_on "ruby-build"
+  depends_on "pinentry-mac"
 
   def install
     bin.install "leeloo"
